@@ -15,13 +15,13 @@
 # Instructions
 **1. Download the repository.**
 
-**2. Cd into the repository that you just downloaded**
+**2. Cd into the repository that you just downloaded.**
 
 **3. Put your Discord's bot token into the .env file next to the 'TOKEN=' variable.**
 
 **4. Put your Roblox's bot cookie into the .env file next to the 'COOKIE=' variable.**
 
-**5. Install the required packages with 'npm i' command in your cmd prompt**
+**5. Install the required packages with 'npm i' command in your cmd prompt.**
 
 **6. Run 'node .' command in your cmd prompt and you're done!**
 
