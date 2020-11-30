@@ -26,7 +26,7 @@ client.on('ready', async () => {
       console.log('\x1b[32mLogged into Roblox!\x1b[0m');
     })
     .catch(err => {
-      console.log('Whoops! An error has occured while trying to log into Roblox! ' + err);
+      console.log('\x1b[31mWhoops! An error has occured while trying to log into Roblox! ' + err + '\x1b[0m');
     });
 });
 
