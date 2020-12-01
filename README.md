@@ -2,7 +2,7 @@
 
 **Q: What is this?**
 -
-**A: This is a Discord-Roblox bot, it is a pretty cool bot that lets you connect Discord to the Roblox's web API. I am planning on adding more commands so stay tuned!**
+**A: This is a Discord-Roblox bot, it is a pretty cool bot that lets you connect Discord to the Roblox's web API. You can also use this bot to verify users. I am planning on adding more commands so stay tuned!**
 
 **Q: How do I get my Discord's bot token?**
 -
@@ -24,6 +24,8 @@
 **5. Install the required packages with 'npm i' command in your cmd prompt.**
 
 **6. Run 'node .' command in your cmd prompt and you're done!**
+
+**Optional: If you want to verify users, go into the Mod folder in the Commands folder and go to the verify.js file and edit the roleID variable to any Discord role IDs that you'd like.**
 
 # Other Info
 **If you have any suggestions, feel free to visit my Discord: https://discord.gg/tVks62hGg6**
