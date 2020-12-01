@@ -2,7 +2,7 @@
 
 **Q: What is this?**
 -
-**A: This is a Discord-Roblox bot, it is a pretty cool bot that lets you connect Discord to the Roblox's web API. I am planning on adding more commands so stay tuned!**
+**A: This is a Discord-Roblox bot, it is a pretty cool bot that lets you connect Discord to the Roblox's web API. You can also use this bot to verify users. I am planning on adding more commands so stay tuned!**
 
 **Q: How do I get my Discord's bot token?**
 -
