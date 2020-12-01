@@ -29,8 +29,8 @@ module.exports = {
                     .setColor('#008000')
                     .setTitle('User Info!')
                     .addField('**[ Username ]**', data.username)
-                    .addField('**[ Status ]**', data.status)
-                    .addField('**[ Blurb ]**', data.blurb)
+                    .addField('**[ Status ]**', data.status || 'None')
+                    .addField('**[ Blurb ]**', data.blurb || 'None')
                     .addField('**[ Join Date ]**', data.joinDate.toUTCString())
                     .addField('**[ Account Age ]**', data.age / 365 + ' years');
                 message.channel.send(userInfoEmbed);
