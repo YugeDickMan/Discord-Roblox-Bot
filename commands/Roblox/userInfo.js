@@ -12,7 +12,7 @@ module.exports = {
     // The command max param.
     maxArgs: 1,
     // The command syntax error.
-    syntaxError: 'Incorrect syntax! Use `uinfo <User ID>`.',
+    syntaxError: 'Incorrect syntax! Use `uinfo <Username>`.',
     // The command name.
     name: 'uinfo',
     // The command desc.
@@ -21,13 +21,14 @@ module.exports = {
     category: 'Roblox',
     // Callback.
     callback: async (message, args) => {
-        let user = args[0];
+        let user = noblox.getIdFromUsername(args[0]);
 
         await noblox.getPlayerInfo(user)
             .then(data => {
                 const userInfoEmbed = new MessageEmbed()
                     .setColor('#008000')
                     .setTitle('User Info!')
+                    .setAuthor(data.username, `https://www.roblox.com/headshot-thumbnail/image?userId=${user}&width=420&height=420&format=png`)
                     .addField('**[ Username ]**', data.username)
                     .addField('**[ Status ]**', data.status || 'None')
                     .addField('**[ Blurb ]**', data.blurb || 'None')
