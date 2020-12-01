@@ -25,5 +25,7 @@
 
 **6. Run 'node .' command in your cmd prompt and you're done!**
 
+**Optional: If you want to verify users, go into the Mod folder in the Commands folder and go to the verify.js file and edit the roleID variable to any Discord role IDs that you'd like.**
+
 # Other Info
 **If you have any suggestions, feel free to visit my Discord: https://discord.gg/tVks62hGg6**
