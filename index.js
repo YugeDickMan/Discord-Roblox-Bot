@@ -18,7 +18,9 @@ client.on('ready', async () => {
     // You can set the prefix to whatever or use MongoDB, look at the wokcommands docs to know what to do.
         .setDefaultPrefix('?')
     // You can set the category to whatever you want and you can add more, look at the wokcommands docs to know what to do.
-        .setCategoryEmoji('Misc', '🛎️');
+        .setCategoryEmoji('Misc', '🛎️')
+        .setCategoryEmoji('Roblox', '⌚')
+        .setCategoryEmoji('Moderation', '👮');
     
     // Set the Roblox cookie!
     await noblox.setCookie(cookie)
