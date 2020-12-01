@@ -12,11 +12,11 @@ module.exports = {
     // The command max param.
     maxArgs: 1,
     // The command syntax error.
-    syntaxError: 'Incorrect syntax! Use `favorites <Asset ID>`.',
+    syntaxError: 'Incorrect syntax! Use `gfavorites <Asset ID>`.',
     // The command name.
-    name: 'favorites',
+    name: 'gfavorites',
     // The command desc.
-    description: 'Checks the specified Roblox\'s asset favorite.',
+    description: 'Fetch the specified Roblox\'s asset favorite.',
     // The command category.
     category: 'Roblox',
     // Callback.

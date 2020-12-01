@@ -21,7 +21,7 @@ module.exports = {
     category: 'Roblox',
     // Callback.
     callback: async (message, args) => {
-        let user = noblox.getIdFromUsername(args[0]);
+        let user = await noblox.getIdFromUsername(args[0]);
 
         await noblox.getPlayerInfo(user)
             .then(data => {
